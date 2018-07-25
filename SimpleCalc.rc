@@ -1,0 +1,247 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SimpleCalc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SimpleCalc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Zzx'sCalc"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SimpleCalc 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权归作者所有 (C) 2016",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SIMPLECALC_DIALOG DIALOGEX 0, 0, 296, 399
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Prommer"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_ERZ,70,55,213,19,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TENZ,70,81,213,19,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "1",IDC_BUTTON1,13,223,50,30
+    PUSHBUTTON      "2",IDC_BUTTON2,67,223,50,30
+    PUSHBUTTON      "3",IDC_BUTTON3,121,223,50,30
+    PUSHBUTTON      "4",IDC_BUTTON4,13,186,50,30
+    PUSHBUTTON      "5",IDC_BUTTON5,67,186,50,30
+    PUSHBUTTON      "6",IDC_BUTTON6,121,186,50,30
+    PUSHBUTTON      "7",IDC_BUTTON7,13,149,50,30
+    PUSHBUTTON      "8",IDC_BUTTON8,67,149,50,30
+    PUSHBUTTON      "9",IDC_BUTTON9,121,149,50,30
+    PUSHBUTTON      "0",IDC_BUTTON0,67,260,50,30
+    PUSHBUTTON      "=",IDC_EQUAL,231,224,50,66
+    PUSHBUTTON      "BACKSPACE",IDC_BS,67,111,50,30
+    EDITTEXT        IDC_RESULT,13,15,269,35,ES_RIGHT | ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY
+    PUSHBUTTON      "+",IDC_ADD,175,260,50,30
+    PUSHBUTTON      "-",IDC_SUB,175,223,50,30
+    PUSHBUTTON      "*",IDC_MUL,175,186,50,30
+    PUSHBUTTON      "/",IDC_DIV,175,149,50,30
+    PUSHBUTTON      "Mod",IDC_MOD,175,111,50,30
+    PUSHBUTTON      "CE",IDC_CLEARE,13,111,50,30
+    PUSHBUTTON      ")",IDC_KR,121,260,50,30
+    PUSHBUTTON      "(",IDC_KL,13,260,50,30
+    PUSHBUTTON      "sin",IDC_SIN,14,298,50,30
+    PUSHBUTTON      "cos",IDC_COS,68,298,50,30
+    PUSHBUTTON      "tan",IDC_TAN,122,298,50,30
+    PUSHBUTTON      "1/x",IDC_Div1,14,334,50,30
+    PUSHBUTTON      "x^y",IDC_POW,121,111,50,30
+    PUSHBUTTON      "√",IDC_SQRT,175,334,50,30
+    GROUPBOX        "",IDC_STATIC,10,142,164,150
+    PUSHBUTTON      "History",IDC_HISTORY,232,111,50,30
+    PUSHBUTTON      "more",IDC_MORE,231,149,50,30
+    PUSHBUTTON      "pi",IDC_PI,68,334,50,30
+    PUSHBUTTON      "e",IDC_E,122,334,50,30
+    PUSHBUTTON      "skin",IDC_SKIN,231,186,50,30
+    LTEXT           " 二进制",IDC_STATIC,13,61,32,8
+    LTEXT           "  结果",IDC_STATIC,13,87,32,8
+    GROUPBOX        "",IDC_STATIC,228,104,58,115
+    PUSHBUTTON      "ln",IDC_ln,175,298,50,30
+    PUSHBUTTON      "e^x",IDC_exp,231,298,50,30
+    PUSHBUTTON      "lg",IDC_lg,231,334,50,30
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SimpleCalc Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SimpleCalc\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2016\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SimpleCalc.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SimpleCalc 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SIMPLECALC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 391
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SimpleCalc(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SimpleCalc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
